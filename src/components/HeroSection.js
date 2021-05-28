@@ -3,85 +3,41 @@ import { Container } from "react-bootstrap";
 import { faUserCircle } from "@fortawesome/free-regular-svg-icons";
 import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../App.css";
+import "../styles/HeroSection.css";
 
 function HeroSection() {
+  // const [items, setItems] = useState([]);
+
+  // useEffect(() => {
+  //   fetch("https://monosandboxst.wpengine.com/wp-json/wp/v2/pages/27")
+  //     .then(res => res.json())
+  //     .then(
+  //       (result) => {
+  //         setItems(result);
+  //       },
+  //     )
+  // }, []);
+
   return (
     <Container>
       <div className="Hero-Background">
-        <header
-          style={{
-            position: "absolute",
-            width: "1400px",
-          }}
-        >
+        <header>
           <div>
-            <FontAwesomeIcon
-              icon={faUserCircle}
-              style={{
-                position: "absolute",
-                fontSize: "24px",
-                color: "white",
-                right: "20px",
-                top: "35px",
-              }}
-            />
+            <FontAwesomeIcon icon={faUserCircle} className="Icon-1" />
           </div>
           <div>
-            <FontAwesomeIcon
-              icon={faShoppingBag}
-              style={{
-                position: "absolute",
-                fontSize: "24px",
-                color: "white",
-                right: "-30px",
-                top: "34px",
-              }}
-            />
+            <FontAwesomeIcon icon={faShoppingBag} className="Icon-2" />
           </div>
           <div className="bar-container">
             <div className="bar1"></div>
             <div className="bar2"></div>
             <div className="bar3"></div>
           </div>
-          <p
-            style={{
-              position: "absolute",
-              width: "48px",
-              height: "21px",
-              left: "117px",
-              top: "17px",
-              fontFamily: "Roboto",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              fontSize: "18px",
-              lineHeight: "21px",
-              color: "white",
-            }}
-          >
-            SHOP
-          </p>
-          <p
-            style={{
-              color: "white",
-              position: "absolute",
-              width: "178px",
-              height: "22px",
-              right: "82px",
-              top: "21px",
-              fontFamily: "Roboto",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              fontSize: "16px",
-              lineHeight: "22px",
-              textAlign: "right",
-            }}
-          >
-            Request An Appointment
-          </p>
+          <p className="Shop">SHOP</p>
+          <p className="Appt">Request An Appointment</p>
         </header>
         <svg
-          style={{ height: "12%", marginTop: "30px" }}
+          className="Hero-Logo"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 168 98"
@@ -97,40 +53,10 @@ function HeroSection() {
           </defs>
         </svg>
         <p className="Hero-Title">Timeless Fashion</p>
-        <button
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
-            padding: "11px 40px",
-            position: "absolute",
-            width: "166px",
-            height: "44px",
-            left: "680px",
-            top: "550px",
-            background: "white",
-            border: "none",
-          }}
-        >
-          <p
-            style={{
-              position: "static",
-              left: " 24.1%",
-              right: "24.1%",
-              top: "25%",
-              bottom: "25%",
-              fontFamily: "Roboto",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              fontSize: "16px",
-              lineHeight: "22px",
-              display: "flex",
-              alignItems: "center",
-              textAlign: "center",
-            }}
-          >
+        <button className="Shop-Button">
+          <a className="Shop-Button-Text" href="https://google.com">
             Shop Online
-          </p>
+          </a>
         </button>
       </div>
     </Container>

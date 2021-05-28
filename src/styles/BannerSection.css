@@ -1,0 +1,71 @@
+.Banner-Section {
+  background-color: black;
+  margin-top: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+  width: 1450px;
+  height: 542px;
+}
+
+.Banner-Logo {
+  margin-top: 100px;
+  margin-right: 450px;
+}
+
+.Banner-Text {
+  position: absolute;
+  color: white;
+  width: 428px;
+  height: 44px;
+  margin-top: 40px;
+  margin-left: 277px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.Banner-Button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 11px 40px;
+  position: absolute;
+  width: 213px;
+  height: 44px;
+  margin-left: 385px;
+  margin-top: 100px;
+  background: white;
+  border: 3px solid;
+  transition: all 0.4s ease-in-out;
+}
+
+.Banner-Button:hover {
+  color: #d15e06;
+}
+
+.Banner-Button-Text {
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s ease-in-out;
+}
+
+.Banner-Button-Text:hover {
+  color: #d15e06;
+}
+
+.Banner-Image {
+  position: absolute;
+  width: 520px;
+  height: 542px;
+  left: 965px;
+}

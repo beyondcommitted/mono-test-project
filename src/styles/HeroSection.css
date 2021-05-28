@@ -1,0 +1,163 @@
+.Hero-Background {
+  background: url("https://monosandboxst.wpengine.com/wp-content/uploads/2021/05/hero-home.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 0;
+  height: 880px;
+}
+.bar-container {
+  cursor: pointer;
+}
+
+.Icon-1 {
+  position: absolute;
+  font-size: 24px;
+  color: white;
+  right: 100px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.Icon-1:hover {
+  color: #d15e06;
+}
+
+.Icon-2 {
+  position: absolute;
+  font-size: 24px;
+  color: white;
+  right: 60px;
+  top: 34px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.Icon-2:hover {
+  color: #d15e06;
+}
+
+.bar1 {
+  position: absolute;
+  width: 42px;
+  height: 0px;
+  left: 55px;
+  top: 33px;
+  border: 3px solid #ffffff;
+}
+
+.bar2 {
+  position: absolute;
+  width: 42px;
+  height: 0px;
+  left: 55px;
+  top: 41px;
+  border: 3px solid #ffffff;
+}
+
+.bar3 {
+  position: absolute;
+  width: 42px;
+  height: 0px;
+  left: 55px;
+  top: 49px;
+  border: 3px solid #ffffff;
+}
+
+.Shop {
+  position: absolute;
+  width: 48px;
+  height: 21px;
+  left: 117px;
+  top: 17px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.Shop:hover {
+  color: #d15e06;
+}
+
+.Hero-Logo {
+  height: 12%;
+  margin-top: 30px;
+}
+
+.Appt {
+  color: white;
+  position: absolute;
+  width: 178px;
+  height: 22px;
+  right: 182px;
+  top: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.Appt:hover {
+  color: #d14606;
+}
+
+.Hero-Title {
+  font-family: "Source Serif Pro";
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 150px;
+  line-height: 188px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: white;
+}
+
+.Shop-Button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 40px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  width: 166px;
+  height: 44px;
+  left: 680px;
+  top: 550px;
+  background: white;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.Shop-Button:hover {
+  border: 2px solid;
+  color: #d15e06;
+}
+
+.Shop-Button-Text {
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s ease-in-out;
+}
+
+.Shop-Button-Text:hover {
+  color: #d15e06;
+}
+@media screen and (max-width: 500px) {
+}

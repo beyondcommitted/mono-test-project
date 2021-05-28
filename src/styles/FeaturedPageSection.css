@@ -1,0 +1,107 @@
+.FPS1 {
+  float: left;
+  width: 47%;
+  margin-top: 65px;
+  margin-left: 35px;
+  height: 650px;
+}
+
+.FPS-1-Text {
+  position: absolute;
+  width: 327px;
+  height: 45px;
+  left: 238px;
+  top: 1169px;
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: white;
+}
+
+.FPS-1-Button {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 11px 40px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  width: 256px;
+  height: 44px;
+  left: 275px;
+  top: 1268px;
+  background: white;
+  border: 1px solid;
+  transition: all 0.4s ease-in-out;
+}
+
+.FPS-1-Button:hover {
+  color: #d15e06;
+}
+
+.FPS2 {
+  float: right;
+  width: 47%;
+  margin-top: 65px;
+  margin-right: 35px;
+  height: 650px;
+}
+
+.FPS-2-Text {
+  position: absolute;
+  width: 327px;
+  height: 45px;
+  left: 972px;
+  top: 1169px;
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: white;
+}
+
+.FPS-2-Button {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 11px 40px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  width: 220px;
+  height: 44px;
+  left: 1026px;
+  top: 1268px;
+  background: white;
+  border: 1px solid;
+  transition: all 0.4s ease-in-out;
+}
+
+.FPS-2-Button:hover {
+  color: #d15e06;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s ease-in-out;
+}
+
+.link:hover {
+  color: #d15e06;
+}

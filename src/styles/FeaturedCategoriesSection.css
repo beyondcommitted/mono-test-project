@@ -1,0 +1,87 @@
+.FCS-Left {
+  float: left;
+  width: 47%;
+  margin-top: 180px;
+  margin-left: 35px;
+  height: 650px;
+  background: black;
+}
+
+.Shop-Online {
+  position: absolute;
+  width: 380px;
+  height: 45px;
+  left: 572px;
+  margin-top: -100px;
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.01rem;
+  color: "black";
+}
+
+.Men-1 {
+  position: absolute;
+  width: 380px;
+  height: 422px;
+  left: 13px;
+  margin-top: -20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 264px;
+  line-height: 80%;
+  color: white;
+}
+
+.Men-2 {
+  position: absolute;
+  width: 380px;
+  height: 422px;
+  left: -73px;
+  margin-top: 196px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 264px;
+  line-height: 80%;
+  color: white;
+}
+
+.FCS-Right {
+  float: right;
+  width: 47%;
+  margin-top: 180px;
+  margin-right: 35px;
+  height: 650px;
+  background: black;
+}
+
+.Women-1 {
+  position: absolute;
+  width: 573px;
+  height: 422px;
+  left: 922px;
+  margin-top: 208px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 264px;
+  line-height: 80%;
+  text-align: right;
+  color: white;
+}
+
+.Women-2 {
+  position: absolute;
+  width: 573px;
+  height: 422px;
+  left: 904px;
+  margin-top: 436px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 264px;
+  line-height: 80%;
+  text-align: right;
+  color: white;
+}

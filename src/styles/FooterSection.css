@@ -1,0 +1,400 @@
+.footer-section-1 {
+  width: 100%;
+  margin-top: 65px;
+  height: 650px;
+  background: white;
+}
+
+.hr-1 {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  left: 0px;
+  margin-top: 900px;
+  border: solid black;
+}
+
+.hr-2 {
+  position: absolute;
+  width: 209px;
+  height: 0px;
+  left: 670px;
+  margin-top: 1130px;
+  border: solid black;
+  transform: rotate(90deg);
+}
+
+.inventory {
+  position: absolute;
+  left: 200px;
+  margin-top: 1030px;
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.01rem;
+  color: black;
+}
+
+.inventory-text {
+  position: absolute;
+  width: 360px;
+  left: 220px;
+  margin-top: 440px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: "black";
+}
+
+.inventory-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 40px;
+  position: absolute;
+  width: 160px;
+  height: 44px;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 15px;
+  left: 320px;
+  margin-top: 520px;
+  background: black;
+  color: white;
+  border: 2px solid;
+  transition: all 0.4s ease-in-out;
+}
+
+.link-1 {
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.link-1:hover {
+  color: #d15e06;
+}
+
+.inventory-button:hover {
+  color: #d15e06;
+}
+
+.appt {
+  position: absolute;
+  left: 920px;
+  margin-top: 380px;
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.01rem;
+  color: "black";
+}
+
+.appt-text {
+  position: absolute;
+  width: 360px;
+  left: 925px;
+  margin-top: 440px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: black;
+}
+
+.appt-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 40px;
+  position: absolute;
+  width: 160px;
+  height: 44px;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 15px;
+  left: 1025px;
+  margin-top: 520px;
+  color: black;
+  background: white;
+  border: 1px solid;
+  transition: all 0.4s ease-in-out;
+}
+
+.appt-button:hover {
+  color: #d15e06;
+}
+
+.link-2 {
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s ease-in-out;
+}
+
+.link-2:hover {
+  color: #d15e06;
+}
+
+.footer-section-2 {
+  width: 100%;
+  margin-top: 715px;
+  height: 550px;
+  background: black;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #e6e7e8;
+  transition: all 0.4s ease-in-out;
+}
+
+.footer-links:hover {
+  color: #d15e06;
+}
+
+.footer-button-1 {
+  position: absolute;
+  width: 104px;
+  height: 30px;
+  left: 164px;
+  margin-top: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  background: none;
+  border: none;
+  color: #e6e7e8;
+}
+
+.footer-button-2 {
+  position: absolute;
+  width: 104px;
+  height: 30px;
+  left: 168px;
+  margin-top: 70px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  background: none;
+  border: none;
+}
+
+.footer-button-3 {
+  position: absolute;
+  width: 104px;
+  height: 30px;
+  left: 168px;
+  margin-top: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #e6e7e8;
+  background: none;
+  border: none;
+}
+
+.footer-button-4 {
+  position: absolute;
+  width: 104px;
+  height: 30px;
+  left: 162px;
+  margin-top: 130px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #e6e7e8;
+  background: none;
+  border: none;
+}
+
+.footer-button-5 {
+  position: absolute;
+  width: 152px;
+  height: 30px;
+  left: 297px;
+  margin-top: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 29px;
+  color: #e6e7e8;
+}
+
+.footer-button-6 {
+  position: absolute;
+  width: 152px;
+  height: 30px;
+  left: 315px;
+  margin-top: 70px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 29px;
+  color: #e6e7e8;
+}
+
+.footer-button-7 {
+  position: absolute;
+  width: 152px;
+  height: 30px;
+  left: 325px;
+  margin-top: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 29px;
+  color: #e6e7e8;
+}
+
+.footer-button-8 {
+  position: absolute;
+  width: 152px;
+  height: 30px;
+  left: 309px;
+  margin-top: 130px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 29px;
+  color: #e6e7e8;
+}
+
+.privacy {
+  position: absolute;
+  width: 200px;
+  height: 18px;
+  left: 134px;
+  margin-top: 440px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  background: none;
+  border: none;
+  font-size: 14px;
+  line-height: 126.3%;
+  color: #e6e7e8;
+}
+
+.divider {
+  position: absolute;
+  width: 10px;
+  height: 18px;
+  left: 314px;
+  margin-top: 440px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 126.3%;
+  color: #e6e7e8;
+}
+
+.site {
+  position: absolute;
+  width: 180px;
+  height: 18px;
+  left: 288px;
+  margin-top: 440px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  background: none;
+  border: none;
+  font-size: 14px;
+  line-height: 126.3%;
+  color: #e6e7e8;
+}
+
+.know {
+  position: absolute;
+  width: 222px;
+  height: 29px;
+  right: 367px;
+  margin-top: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #e6e7e8;
+}
+
+.input {
+  position: absolute;
+  width: 341px;
+  height: 65px;
+  right: 233px;
+  margin-top: 100px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  background: black;
+  color: white;
+  font-size: 24px;
+}
+
+.go {
+  position: absolute;
+  width: 59.78px;
+  height: 65px;
+  right: 138px;
+  margin-top: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid;
+  background: none;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.go:hover {
+    color: #d15e06;
+}
+
+.go-link {
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.go-link:hover {
+    color: #d15e06;
+}
