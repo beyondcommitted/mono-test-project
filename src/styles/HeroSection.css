@@ -160,4 +160,177 @@
   color: #d15e06;
 }
 @media screen and (max-width: 500px) {
+  .shrink {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+  }
+  .Hero-Background {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    background: url("https://github.com/beyondcommitted/Portfolio/blob/main/assests/images/2021-05-27.png?raw=true");
+    position: absolute;
+    
+    max-width: 600px;
+    height: 611px;
+    left: -100px;
+    right: 0px;
+    top: -225px;
+    bottom: 0 auto;
+  }
+  .bar-container {
+    cursor: pointer;
+  }
+
+  .Icon-1 {
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    right: 100px;
+    top: 241px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+  .Icon-1:hover {
+    color: #d15e06;
+  }
+
+  .Icon-2 {
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    right: 60px;
+    top: 241px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .Icon-2:hover {
+    color: #d15e06;
+  }
+
+  .bar1 {
+    position: absolute;
+    width: 42px;
+    height: 0px;
+    left: 115px;
+    top: 241px;
+    border: 3px solid #ffffff;
+  }
+
+  .bar2 {
+    position: absolute;
+    width: 42px;
+    height: 0px;
+    left: 115px;
+    top: 249px;
+    border: 3px solid #ffffff;
+  }
+
+  .bar3 {
+    position: absolute;
+    width: 42px;
+    height: 0px;
+    left: 115px;
+    top: 257px;
+    border: 3px solid #ffffff;
+  }
+
+  .Shop {
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    left: 117px;
+    top: 17px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .Shop:hover {
+    color: #d15e06;
+  }
+
+  .Hero-Logo {
+    height: 12%;
+    margin-left: 180px;
+    margin-top: 188px;
+  }
+
+  .Appt {
+    color: white;
+    position: absolute;
+    width: 178px;
+    height: 22px;
+    right: 182px;
+    top: 21px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .Appt:hover {
+    color: #d14606;
+  }
+
+  .Hero-Title {
+    position: absolute;
+    width: 331px;
+    height: 162px;
+    left: 172px;
+    top: 284px;
+
+    font-family: "FreightDisp Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 92.7%;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .Shop-Button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 40px;
+
+    position: absolute;
+    width: 166px;
+    height: 44px;
+    left: 264px;
+    top: 509px;
+
+    /* White */
+
+    background: #ffffff;
+    transition: all 0.4s ease-in-out;
+  }
+  .Shop-Button:hover {
+    border: 2px solid;
+    color: #d15e06;
+  }
+
+  .Shop-Button-Text {
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .Shop-Button-Text:hover {
+    color: #d15e06;
+  }
 }

@@ -105,3 +105,105 @@
 .link:hover {
   color: #d15e06;
 }
+
+@media screen and (max-width: 500px) {
+  .FPS1 {
+    width: 92%;
+    height: 600px;
+    margin-top: 445px;
+    margin-left: 19px;
+    height: 500px;
+  }
+
+  .FPS-1-Text {
+    position: absolute;
+    width: 269px;
+    height: 53px;
+    left: 114px;
+    top: 590px;
+    font-family: FreightDisp Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 41px;
+    text-align: center;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: black;
+    color: #ffffff;
+  }
+
+  .FPS-1-Button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 40px;
+    position: absolute;
+    width: 259px;
+    height: 44px;
+    left: 117px;
+    top: 705px;
+    background: #ffffff;
+    border: 1px solid;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .FPS-1-Button:hover {
+    color: #d15e06;
+  }
+
+  .FPS2 {
+    width: 92%;
+    height: 600px;
+    margin-top: 65px;
+    margin-right: 19px;
+    height: 500px;
+  }
+
+  .FPS-2-Text {
+    position: absolute;
+    width: 327px;
+    height: 45px;
+    left: 64px;
+    top: 1117px;
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 45px;
+    text-align: center;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+
+  .FPS-2-Button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 40px;
+
+    position: absolute;
+    width: 220px;
+    height: 44px;
+    left: 119px;
+    top: 1226px;
+    background: #ffffff;
+    border: 1px solid;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .FPS-2-Button:hover {
+    color: #d15e06;
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .link:hover {
+    color: #d15e06;
+  }
+}

@@ -7,6 +7,7 @@ function CTOSection() {
     <Container>
       <div className="CTO-Background">
         <h2 className="Brand-Roots">Brand Roots</h2>
+        <h2 className="Brand-Roots-2">The Roots Run Deep</h2>
         <p className="CTO-Text">
           Traditional Elegance MEETS MODERN SOPHISTICATION with confidence,
           precision and the unexpected

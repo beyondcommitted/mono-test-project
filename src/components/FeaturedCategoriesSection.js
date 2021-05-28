@@ -3,9 +3,9 @@ import "../styles/FeaturedCategoriesSection.css";
 
 function FeaturedCategoriesSection() {
   return (
-    <div>
+    <div className="FCS">
+      <p className="Shop-Online">Shop Online</p>
       <div className="FCS-Left">
-        <p className="Shop-Online">Shop Online</p>
         <p className="Men-1">ME</p>
         <p className="Men-2">N</p>
       </div>

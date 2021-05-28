@@ -85,3 +85,98 @@
   text-align: right;
   color: white;
 }
+
+@media screen and (max-width: 500px) {
+  .FCS {
+    margin-top: 1650px;
+  }
+
+  .Shop-Online {
+    position: absolute;
+    width: 335px;
+    height: 41px;
+    left: 80px;
+    margin-top: 170px;
+
+    /* .text-xl 32 (Freight) */
+
+    font-family: FreightDisp Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    /* identical to box height */
+
+    text-align: center;
+  }
+
+  .FCS-Left {
+    width: 92%;
+    margin-top: 250px;
+    margin-left: 19px;
+    height: 400px;
+    background: black;
+  }
+
+  .Men-1 {
+    position: absolute;
+    width: 380px;
+    height: 422px;
+    margin-left: -51px;
+    margin-top: -35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 80%;
+    color: white;
+  }
+
+  .Men-2 {
+    position: absolute;
+    width: 380px;
+    height: 422px;
+    margin-left: -52px;
+    margin-top: 116px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 80%;
+    color: white;
+  }
+
+  .FCS-Right {
+    width: 92%;
+    margin-top: 50px;
+    margin-right: 19px;
+    height: 400px;
+    background: black;
+  }
+
+  .Women-1 {
+    position: absolute;
+    width: 573px;
+    height: 422px;
+    margin-left: -1010px;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 80%;
+    text-align: right;
+    color: white;
+  }
+
+  .Women-2 {
+    position: absolute;
+    width: 573px;
+    height: 422px;
+    margin-left: -990px;
+    margin-top: 210px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 80%;
+    text-align: right;
+    color: white;
+  }
+}
